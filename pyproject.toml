@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "car-data"
+version = "0.1.0"
+description = "Car Motion Data Analyzer."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "car_data"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flake8 = "^6.0.0"
+black = "^23.3.0"
+ipykernel = "^6.23.2"
+notebook = "^6.5.4"
+numpy = "^1.24.3"
+pandas = "^2.0.2"
+folium = "^0.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

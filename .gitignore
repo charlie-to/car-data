@@ -172,8 +172,9 @@ cython_debug/
 pyvenv.cfg
 .venv
 pip-selfcheck.json
-# venv
-default/
 
 # data
 data/
+
+# poetry
+poetry.lock
