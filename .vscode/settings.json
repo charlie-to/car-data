@@ -1,5 +1,5 @@
 {
-    "python.pythonPath" : "${workspaceFolder}\\venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": ["${workspaceFolder}/.venv/lib/python3.10/site-packages"],
     
     "editor.formatOnSave": true,
     "python.linting.enabled": true,
@@ -15,6 +15,7 @@
         "120"
     ],
     "cSpell.words": [
+        "geemap",
         "GPRMC",
         "gsensori"
     ]
